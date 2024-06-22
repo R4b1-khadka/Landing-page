@@ -1,61 +1,88 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: roboto, sans-serif;
+body {
+  font-family: roboto, sans-serif;
 }
 
-.hero{
-    background-color: #1f2937;
-    color:#f9faf8;
-    padding:0 10%;
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 10%;
 }
-header{
-    display:flex;
-    padding-top:16px;
-
+header {
+  display: flex;
+  padding-top: 16px;
 }
-h1{
-    height:5vh;
-    width:50vw;
+h1 {
+  height: 5vh;
+  width: 50vw;
 }
-.hero ul{
-    list-style-type: none;
-    height:5vh;
-    display:flex;
-    justify-content: flex-end;
-    gap:32px;
-    
+ul {
+  list-style-type: none;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
 }
-a{
-    text-decoration: none;
-    color:#f9faf8;
+a {
+  text-decoration: none;
+  color: #f9faf8;
 }
-.container{
-
-    display:flex;
-    justify-content: space-between;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
-.header-photo img{
-    height:30vh;
-    width:30vw;
+.header-photo img {
+  height: 30vh;
+  width: 30vw;
 }
-button{
-    color:white;
-    background-color:#3882f6;
-    font-size:1em;
-    font-weight:bold;
-    padding:8px;
-    border-radius: 8px;
-    width:90px;
+button {
+  color: white;
+  background-color: #3882f6;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  width: 90px;
 }
-.more-information{
-    margin-top:32px;
-    margin-bottom:32px;
+.more-information {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
-.img-details img{
-    height:20vh;
-    width:20vw;
+.img-details img {
+  height: 20vh;
+  width: 15vw;
+  border-radius: 12px;
+  gap: 12px;
+}
+.img-details {
+  display: flex;
+  padding: 0 10%;
+  justify-content: center;
+  gap: 32px;
+}
+h2 {
+  text-align: center;
+}
+.golo {
+  height: 20vh;
+  width: 15vw;
+}
+.testimonial {
+  padding: 200px 32px;
+  text-align: center;
+}
+.sign_up {
+  padding: 200px 32px;
+  text-align: center;
+}
+footer {
+  padding: 20px;
+  width: 100vw;
+  color: #f9faf8;
+  background-color: black;
+  text-align: center;
 }
