@@ -10,7 +10,7 @@ body{
 .hero{
     background-color: #1f2937;
     color:#f9faf8;
-    padding:0 100px;
+    padding:0 10%;
 }
 header{
     display:flex;
@@ -21,10 +21,9 @@ h1{
     height:5vh;
     width:50vw;
 }
-ul{
+.hero ul{
     list-style-type: none;
     height:5vh;
-    width:50vw;
     display:flex;
     justify-content: flex-end;
     gap:32px;
@@ -37,9 +36,26 @@ a{
 .container{
 
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .header-photo img{
     height:30vh;
     width:30vw;
+}
+button{
+    color:white;
+    background-color:#3882f6;
+    font-size:1em;
+    font-weight:bold;
+    padding:8px;
+    border-radius: 8px;
+    width:90px;
+}
+.more-information{
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.img-details img{
+    height:20vh;
+    width:20vw;
 }
