@@ -6,11 +6,40 @@
 body{
     font-family: roboto, sans-serif;
 }
+
+.hero{
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding:0 100px;
+}
 header{
     display:flex;
+    padding-top:16px;
 
 }
 h1{
     height:5vh;
     width:50vw;
+}
+ul{
+    list-style-type: none;
+    height:5vh;
+    width:50vw;
+    display:flex;
+    justify-content: flex-end;
+    gap:32px;
+    
+}
+a{
+    text-decoration: none;
+    color:#f9faf8;
+}
+.container{
+
+    display:flex;
+    justify-content: space-around;
+}
+.header-photo img{
+    height:30vh;
+    width:30vw;
 }
